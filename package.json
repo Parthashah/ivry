@@ -1,0 +1,28 @@
+{
+  "name": "ivry",
+  "version": "1.0.0",
+  "description": "NodeJS Developer Command Line Interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parthashah/ivry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parthashah/ivry/issues"
+  },
+  "homepage": "https://github.com/Parthashah/ivry#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "inquirer": "^7.3.3"
+  },
+  "bin": {
+    "ivry": "./index.js"
+  }
+}
